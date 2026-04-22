@@ -73,6 +73,8 @@ See result
 
 ### Home Page
 ![Home](screenshots/main.png)
+## verification 
+![verification](screenshots/verification.png)
 
 ### ✅ Genuine Result
 ![Genuine](screenshots/genuine.png)
