@@ -69,13 +69,18 @@ Upload image
 Click process
 See result
 
-##Output
+## Screenshots
 
-Genuine Signature
-Forged Signature
-## Note
-Currently, the prediction is based on simple logic.
-It can be improved using a real trained machine learning model.
+### Home Page
+![Home](screenshots/main.png)
+
+### ✅ Genuine Result
+![Genuine](screenshots/genuine.png)
+
+### ❌ Forged Result
+![Forged](screenshots/forged.png)
+
+
 ## Future Work
 Add real ML model
 Improve accuracy
