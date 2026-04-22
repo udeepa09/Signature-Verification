@@ -66,7 +66,7 @@ So, this system helps by checking signatures automatically.
 ## usage
 Open browser → http://127.0.0.1:5000/⁠�
 Upload image
-Click process
+Click verify 
 See result
 
 ## Screenshots
@@ -86,6 +86,6 @@ Add real ML model
 Improve accuracy
 Build mobile app
 
- ##Conclusion
+## Conclusion
 This project shows how computers can be used to check signatures automatically in a simple and fast way.
 
