@@ -1,0 +1,104 @@
+body {
+    background-color: #050505;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.control-panel {
+    background: #111;
+    padding: 25px;
+    border-radius: 15px;
+    border-left: 4px solid #00f2ff;
+}
+
+.scanner-box {
+    background: #0a0a0a;
+    height: 520px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #222;
+}
+
+.image-container {
+    position: relative;
+    width: 85%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+
+.sig-img {
+    max-width: 90%;
+    filter: grayscale(100%) brightness(1.1);
+}
+
+.scan-line {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 4px;
+    background: #00f2ff;
+    box-shadow: 0 0 20px #00f2ff;
+    animation: moveLine 2.5s infinite ease-in-out;
+}
+
+@keyframes moveLine {
+    0% { top: 0%; opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { top: 100%; opacity: 0; }
+}
+
+.result-overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(3px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.decision-box {
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    background: #0a0a0a;
+    min-width: 380px;
+}
+
+.border-gen { border: 3px solid #10b981; }
+.border-forg { border: 3px solid #ef4444; }
+
+.text-gen { color: #10b981; font-weight: 900; }
+.text-forg { color: #ef4444; font-weight: 900; }
+
+.analysis-report {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.report-text {
+    font-size: 0.85rem;
+    font-family: monospace;
+}
+
+.animate-fade {
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.idle-state { text-align: center; }
