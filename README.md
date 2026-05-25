@@ -56,12 +56,6 @@ So, this system helps by checking signatures automatically.
 - `static/` → Images and styles  
 
 ---
- 
-## usage
-Open browser → http://127.0.0.1:5000/⁠�
-Upload image
-Click verify 
-See result
 
 ## Screenshots
 
