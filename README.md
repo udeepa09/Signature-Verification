@@ -1,4 +1,4 @@
-# ✍️ Signature Verification System
+#  Signature Verification System
 
 ##  Overview
 This project is a Signature Verification System that checks whether a signature is **Genuine or Forged**.  
@@ -14,7 +14,7 @@ So, this system helps by checking signatures automatically.
 
 ---
 
-## 🚀 Features
+##  Features
 - Upload a signature image  
 - Detect if it is genuine or forged  
 - Simple web interface  
@@ -47,7 +47,7 @@ So, this system helps by checking signatures automatically.
 
 ---
 
-## 📂 Project Files
+##  Project Files
 - `app.py` → Main program (Flask)  
 - `svm.py` → Prediction logic  
 - `features.py` → Feature extraction  
@@ -56,13 +56,7 @@ So, this system helps by checking signatures automatically.
 - `static/` → Images and styles  
 
 ---
-
-## ▶️ How to Run
-- git clone https://github.com/udeepa09/Signature-Verification.git
-- cd Signature-Verification
-- pip install -r requirements.txt
-- python app.py.
-
+ 
 ## usage
 Open browser → http://127.0.0.1:5000/⁠�
 Upload image
@@ -76,17 +70,14 @@ See result
 ## verification 
 ![verification](screenshots/verification.png)
 
-### ✅ Genuine Result
+###  Genuine Result
 ![Genuine](screenshots/genuine.png)
 
-### ❌ Forged Result
+### Forged Result
 ![Forged](screenshots/forged.png)
 
 
-## Future Work
-Add real ML model
-Improve accuracy
-Build mobile app
+
 
 ## Conclusion
 This project shows how computers can be used to check signatures automatically in a simple and fast way.
